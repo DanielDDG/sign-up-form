@@ -8,6 +8,7 @@
 body {
     display: flex;
     overflow: hidden;
+    min-width: 700px;
 }
 
 img#cave {
@@ -103,12 +104,14 @@ p#formtext {
     padding-left: 50px;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 input {
     padding: 2px;
     height: 20px;
-    width: 500px;
+    max-width: 40%;
+    width: 40%;
     margin: 4px 30px 20px 1px;
     border: 1px solid grey;
     border-radius: 4px;
@@ -121,15 +124,15 @@ input:focus {
 }
 
 .settwo {
-    margin-left: 465px;
+    margin-left: 37.1%;
 }
 
 label#pn {
-    margin-left: 500px;
+    margin-left: 40.3%;
 }
 
 label#cp {
-    margin-left: 472px;
+    margin-left: 37.7%;
 }
 
 .toplabel,
