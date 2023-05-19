@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <div class="background">
+        <img src="images/Cave.jpg" id="cave" alt="Cave">
+        <div id="sidebar">
+            <img src="images/Odin.png" id="odinlogo" alt="Logo">
+            <p id="logotext">Odin</p>
+        </div>
+    </div>
+    <div class="side">
+        <p id="toptext">This is not a real online service! Lorem ipsum dolor sit amet 
+                        consectetur, adipisicing elit. Necessitatibus, commodi!</p>
+        <p id="toptext2">Sign up <i class="italic">now</i> to get started.</p>
+        <p id="bottomtext">You <i class="italic">know</i> you want to.</p>
+        <form class="main">
+            <p id="formtext">Let's do this!</p>
+            <div class="toplabel">
+                <label class="setone" for="firstname">First Name</label>
+                <label class="settwo" for="lastname">Last Name</label>
+            </div>
+            <div class="topinput">
+                <input type="text" id="firstname">
+                <input type="text" id="lastname">
+            </div>
+            <div class="middlelabel">
+                <label class="setone" for="email">Email</label>
+                <label class="settwo" id="pn" for="phone">Phone Number</label>
+            </div>
+            <div class="middleinput">
+                <input type="email" class="error" id="email">
+                <input type="text" class="error" minlength="9" id="phone">
+            </div>
+            <div class="bottomlabel">
+                <label class="setone" for="password">Password</label>
+                <label class="settwo" id="cp" for="confirm">Confirm Password</label>
+            </div>
+            <div class="bottominput">
+                <input type="text" class="error" id="password">
+                <input type="text" class="error" id="confirm">
+            </div>
+            <div class="submit">
+                <button type="submit">Create Account</button>
+            </div>
+        </form>
+        <p id="login">Already have an account? <span>Log in</span></p>
+    </div>
+</body>
+</html>

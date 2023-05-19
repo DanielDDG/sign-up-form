@@ -1,0 +1,181 @@
+* {
+    background-color: hsl(0, 0%, 0%);
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    overflow: hidden;
+}
+
+img#cave {
+    object-fit: cover;
+    height: 100vh;
+    width: 35vw;
+}
+
+div#sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 30vh;
+    height: 15vh;
+    width: 35vw;
+    top: 0;
+    left: 0;
+    font-size: xx-large;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+img#odinlogo {
+    object-fit: cover;
+    height: 95px;
+    background-color: transparent;
+}
+
+p#logotext {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Times New Roman;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+div.side {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 550;
+    color: rgb(255, 255, 255, 0.9);
+}
+
+p#toptext {
+    display: flex;
+    padding: 50px;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+p#toptext2 {
+    display: flex;
+    margin-top: -50px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+p#bottomtext {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+
+.italic {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+div.form {
+    background-color: rgb(10, 9, 9);
+    height: 30vh;
+}
+
+p#formtext {
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(10, 9, 9);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.main {
+    background-color: rgb(10, 9, 9);
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 2px;
+    height: 20px;
+    width: 500px;
+    margin: 4px 30px 20px 1px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgba(89, 170, 23, 0.7);
+}
+
+.settwo {
+    margin-left: 465px;
+}
+
+label#pn {
+    margin-left: 500px;
+}
+
+label#cp {
+    margin-left: 472px;
+}
+
+.toplabel,
+.topinput,
+.submit,
+.middlelabel,
+.middleinput,
+.bottomlabel,
+.bottominput,
+.setone,
+.settwo {
+    background-color: rgb(10, 9, 9);
+}
+
+form {
+    box-shadow: 5px 5px 5px 5px rgba(22, 22, 22, 0.7);
+}
+
+button {
+    font-family: Arial;
+    font-weight: 900;
+    font-size: larger;
+    margin-top: 30px;
+    padding: 20px;
+    width: 200px;
+    color: rgb(12, 156, 12);
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 2px solid green;
+}
+
+.submit {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+p#login {
+    font-size: 20px;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+span {
+    color: green;
+}
+
+
+
+
